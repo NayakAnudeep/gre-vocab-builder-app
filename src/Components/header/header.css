@@ -1,0 +1,27 @@
+.headers{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.headers > div {
+    padding: 1em;
+}
+
+.heading{
+    font-size: 2em;
+}
+
+.options{
+    position: absolute;
+    margin-top: 33px;
+    right: 11em;
+}
+
+.Add{
+    position: relative;
+    margin-left: 3em;
+}
+
+
+
