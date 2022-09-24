@@ -1,0 +1,49 @@
+.flashCardContainer{
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 10%;
+}
+
+.flashCard{
+    padding:1em;
+    background-color: #c38d9d
+    ;
+    color: #e27d5f;
+}
+
+.rightBtn{
+    margin-left: 2em !important;
+    color: #e27d5f
+    !important;
+}
+
+.leftBtn{
+    color: #e27d5f
+    !important;
+}
+
+.wordContainer{
+    font-size: 2em;
+    color:#EEEEEE;
+    text-align: center;
+}
+
+.decision{
+    text-align: left;
+}
+
+.wordContainerExplanation{
+    font-size: 1.5em;
+    color:#EEEEEE;
+    text-align: center;
+}
+
+.centerBtn{
+    margin: 0 auto;
+    color: #e27d5f
+    !important;
+}
+
+.nextBtn{
+    text-align: center;
+}

@@ -1,16 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Header from './Components/header/header';
+import {Routes, BrowserRouter as Router, Route} from "react-router-dom"
 import Flashcard from './Components/flashcards/flashcards';
+import AddWords from './Components/addWords/addWords';
+import Header from './Components/header/header';
+
 
 function App() {
     return(
-    <div className='main'>
-      <Header />
-      <div class='flashcard'>
-        <Flashcard />
-      </div>
-    </div>
+      <Router>
+        <Header/>
+        <Routes>
+          <Route path='/addWords' element={<AddWords/>}/>
+          <Route path='/flashCard' element={<Flashcard/>}/>
+        </Routes>  
+      </Router>
   );
 }
 
